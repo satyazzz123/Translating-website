@@ -1,38 +1,288 @@
-.App {
+::-webkit-scrollbar {
+  display: none;
+}
+.intro{
+  background: url("https://images.unsplash.com/photo-1524964056700-f5738231ad5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  height: 72rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+.head{
+  position: absolute;
+  right: 2rem;
+  color: aliceblue;
+  font-size: 2rem;
+
+}
+.nav{
+  
+  position: fixed;
+  top: -1rem;
+  left: 1rem;
+  padding: 3rem 1rem;
+  font-size: 2.4rem;
+z-index: 1000;
+}
+.dot{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 5rem;
+  margin: 0%;
+}
+.dot:hover{
+  content: "love";
+  color:wheat
+}
+.overlay-intro{
+  height: 100%;
+  background-image: linear-gradient(
+    180deg
+    , rgba(2, 1, 1, 0.46) 0%, #615d5d 120%);
+}
+
+ .intro-content{
+  border: 2px solid;
+  color: white;
+  position: absolute;
+  left: 27%;
+  top: 35%;
+  font-size: 5rem;
+ }
+ .diff_voice{
+  background: url('https://images.unsplash.com/photo-1627912814752-a9b80327f5eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  height: 72rem;
+  background-size: cover;
+  background-attachment: fixed;
+
+ }
+ .overlay-2{
+  height: 100%;
+ 
+ }
+ .card1{
+  color: rgb(0, 0, 0);
+ 
+  width: 40.5rem;
+  height: 18.3rem;
+  position: absolute;
+  left: 15%;
+  top: 150%;
+  background-color: wheat;
+  background-attachment: fixed;
+  font-size: 2rem;
+  
+ }
+p{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card2{
+  width: 40.5rem;
+  height: 18.3rem;
+  position: absolute;
+  left: 58%;
+  top: 120%;
+  background-color: wheat;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.asia{
+  height: 72rem;
+  background: url('https://images.unsplash.com/photo-1575839127405-acda7759a2e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+.overlay-asia{
+  height: 100%;
+  background-image: linear-gradient(
+    180deg
+    , rgba(2, 1, 1, 0.46) 0%, #615d5d 120%);
+}
+.asia-card1{
+  background-color:wheat ;
+  width: 40.5rem;
+  height: 18.3rem;
+  position: absolute;
+  left: 15%;
+  top: 210%;
+  font-size: 2rem;
+  color: black;
+}
+.euro{
+  background: url('https://images.unsplash.com/photo-1612921376312-7c9028e1bba2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80');
+  height: 72rem;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.euro-card{
+  background-color:wheat ;
+  width: 40.5rem;
+  height: 18.3rem;
+  position: absolute;
+  left: 15%;
+  top:310% ;
+  font-size: 2rem;
+  color: black;
+}
+.africa{
+  height: 72rem;
+  background: url('https://images.unsplash.com/photo-1585816876841-7f1a1a206cae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=912&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.overlay-africa{
+  height: 100%;
+  background-image: linear-gradient(
+    180deg
+    , rgba(2, 1, 1, 0.46) 0%, #000000 120%);
+}
+.card-africa{
+  background-color:wheat ;
+  width: 40.5rem;
+  height: 18.3rem;
+  position: absolute;
+  left: 15%;
+  top: 410%;
+  font-size: 2rem;
+  color: black;
+}
+.N_america{
+  height: 72rem;
+  background:url('https://images.unsplash.com/photo-1516210938721-0703012a297a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.N-card{
+  background-color:wheat ;
+  width: 40.5rem;
+  height: 18.3rem;
+  position: absolute;
+  left: 15%;
+  top: 510%;
+  font-size: 2rem;
+  color: black;
+
+}
+.S_america{
+  height: 72rem;
+  background:url('https://images.unsplash.com/photo-1600074169098-16a54d791d0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.S_card{
+  background-color:wheat ;
+  width: 40.5rem;
+  height: 18.3rem;
+  position: absolute;
+  left: 12%;
+  top: 610%;
+  font-size: 2rem;
+  color: black;
+
+}
+.aus{
+  height: 72rem;
+  background: url("https://images.unsplash.com/photo-1605235904827-2fc511a86dd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.aus-card{
+  background-color:wheat ;
+  width: 40.5rem;
+  height: 18.3rem;
+  position: absolute;
+  left: 12%;
+  top: 710%;
+  font-size: 2rem;
+  color: black;
+
+}
+.contact{
+  position: fixed;
+  right: 1rem;
   color: white;
+  top: 35%;
+
+
+
+
+}
+#input-word{
+  background-color: #D2E8E3;
+  border-radius: 2rem;
+  position: absolute;
+  left: 8%;
+  top: 45%;
+  width: 30%;
+  height: 3rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+#input-word::placeholder{
+  text-align: center;
+  color: #5EABAC
 }
 
-.App-link {
-  color: #61dafb;
+#output-word{
+  background-color: #D2E8E3;
+  border-radius: 2rem;
+  position: absolute;
+  left: 64%;
+  top: 45%;
+  width: 30%;
+  height: 3rem;
+  text-align: center;
+}
+option{
+  border-radius: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus {
+  outline:none;
+}
+#input-display{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: beige;
+  position: absolute;
+  left: 8%;
+  top: 55%;
+  border: 2px solid black;
+  width: 30%;
+  height: 20rem;
+  /* border-radius: 2rem; */
+  box-sizing: border-box;
+}
+#output-display{
+  
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 64%;
+  top: 55%;
+  border: 2px solid black;
+  color: beige;
+  width: 30%;
+  height: 20rem;
+  /* border-radius: 2rem; */
+}
+*:focus {
+  outline: none;
+}
+#mic-icon{
+  position: relative;
+  bottom: -14rem;
+  
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+textarea{
+  resize: none;
 }
